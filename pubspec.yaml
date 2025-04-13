@@ -1,0 +1,33 @@
+name: beacon
+description: A P2P location-tracking app for trekkers in remote areas.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  geolocator: ^13.0.4
+  flutter_map: ^8.1.1
+  latlong2: ^0.9.0
+  nearby_connections: ^4.3.0
+  permission_handler: ^12.0.0+1
+  intl: ^0.20.2
+  uuid: ^4.2.1
+  crypto: ^3.0.3
+  package_info_plus: ^8.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+#  assets:
+#    - assets/images/
